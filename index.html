@@ -8,6 +8,66 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-hola
+    <nav class="navbar">
+        <ul class="linksContenedor">
+            <li><a href="" class="links">principal</a></li>
+                <ul>
+                    <li><a href="" class="sublinks">fotos</a></li>
+                    <li><a href="" class="sublinks">videos</a></li>
+                </ul>
+            <li><a href="" class="links">sobre nosotros</a></li>
+            <li><a href="" class="links">novedades</a></li>
+            <li><a href="" class="links">contactanos</a></li>
+        </ul>
+    </nav>
+<section>
+<form action="">
+    
+    <fieldset>
+        <legend>Complete el formulario</legend>
+
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre">
+    
+    <label for="correo">Email</label>
+    <input type="email" name="correo" id="correo" placeholder="ingresa tu email">
+    
+    <label for="clave">Contraseña</label>
+    <input type="password" name="clave" id="clave" placeholder="ingresa tu contraseña">
+
+    <label for="fecha">Fecha de nacimiento</label>
+    <input type="date" name="fecha" id="fecha" required>
+
+    <select name="tallee" id="talle">
+        <option value="l">large</option>
+        <option value="m">medium</option>
+        <option value="s">small</option>
+    </select>
+
+    <label for="mensaje">Escribi un mensaje</label>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+    <label for="pais">argentina</label>
+    <input type="radio" name="pais" value="argentina">
+    <label for="pais">uruguay</label>
+    <input type="radio" name="pais" value="uruguay">
+    <label for="pais">brasil</label>
+    <input type="radio" name="pais" value="brasil">
+    <label for="pais">chile</label>
+    <input type="radio" name="pais" value="chile">
+
+    <input type="checkbox" name="acepta" id="acepta" value="1">
+    <label for="acepta">Acepta los terminos y condiciones</label>
+
+    <input type="submit" value="Enviar formulario">
+        
+    <input type="reset">
+
+    <input type="button" value="sin acciones">
+
+    </fieldset>
+
+</form>
+</section>
 </body>
 </html>

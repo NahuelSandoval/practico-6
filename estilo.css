@@ -1,5 +1,28 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
-/* movil */
+ul{
+    background-color: aquamarine;
+    font-size: 0;
+    list-style: none;
+    padding: 2rem;
+    
+}
+li{
+    display: inline-block;
+    width: 24%;
+    position: relative;
+    font-size: 15px;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+}
+ul:hover ul {
+display: block
+}
