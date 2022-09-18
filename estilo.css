@@ -40,6 +40,10 @@ a:hover{
 }
 
 /* form------------- */
+form{
+    display: flex;
+    align-items: center;
+}
 .campos{
     display: inline-block;
     display: flex;
@@ -49,8 +53,25 @@ a:hover{
     margin: 2rem;
     border-color: gold;
     border-radius: 20px;
+    background-color: ghostwhite;
+    width: 20rem;
 }
 input,select,textarea{
     margin-bottom: 1rem;
+}
+.botones {
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.botones input{
+    padding: 5px;
+}
+.botones input:hover{
+    background-color: blue;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
