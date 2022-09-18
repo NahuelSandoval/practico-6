@@ -19,10 +19,11 @@ li{
 ul ul{
     position: absolute;
     display: none;
+    
 }
 ul ul li {
     display: block;
 }
-ul:hover ul {
+ul li:hover ul{ 
 display: block
 }
