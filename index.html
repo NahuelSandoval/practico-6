@@ -14,6 +14,8 @@
                 <ul>
                     <li><a href="" class="sublinks">fotos</a></li>
                     <li><a href="" class="sublinks">videos</a></li>
+                    <li><a href="" class="sublinks">audios</a></li>
+                    <li><a href="" class="sublinks">extras</a></li>
                 </ul>
             </li>
             <li><a href="" class="links">sobre nosotros</a></li>
@@ -22,9 +24,9 @@
         </ul>
     </nav>
 <section>
-<form action="">
+<form action="" class="form">
     
-    <fieldset>
+    <fieldset class="campos">
         <legend>Complete el formulario</legend>
 
     <label for="nombre">Nombre</label>
@@ -39,7 +41,7 @@
     <label for="fecha">Fecha de nacimiento</label>
     <input type="date" name="fecha" id="fecha" required>
 
-    <select name="tallee" id="talle">
+    <select name="talle" id="talle">
         <option value="l">large</option>
         <option value="m">medium</option>
         <option value="s">small</option>
@@ -47,19 +49,25 @@
 
     <label for="mensaje">Escribi un mensaje</label>
     <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-
-    <label for="pais">argentina</label>
+<div class="paises">
+    
     <input type="radio" name="pais" value="argentina">
-    <label for="pais">uruguay</label>
+    <label for="pais">argentina</label>
+    
     <input type="radio" name="pais" value="uruguay">
-    <label for="pais">brasil</label>
+    <label for="pais">uruguay</label>
+    
     <input type="radio" name="pais" value="brasil">
-    <label for="pais">chile</label>
+    <label for="pais">brasil</label>
+    
     <input type="radio" name="pais" value="chile">
-
-    <input type="checkbox" name="acepta" id="acepta" value="1">
-    <label for="acepta">Acepta los terminos y condiciones</label>
-
+    <label for="pais">chile</label>
+    
+</div>
+<div class="terminos">
+    <input type="checkbox" name="acepta" id="acepta" value="1" required>
+    <label for="acepta">Acepta los terminos y condiciones </label>
+</div>
     <input type="submit" value="Enviar formulario">
         
     <input type="reset">

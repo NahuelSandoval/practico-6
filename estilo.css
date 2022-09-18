@@ -2,22 +2,27 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    
 }
 ul{
     background-color: aquamarine;
     font-size: 0;
     list-style: none;
     padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 li{
     display: inline-block;
-    width: 24%;
     position: relative;
     font-size: 15px;
+    padding: 5px;
 }
 ul ul{
     position: absolute;
+    gap: 3rem;
     display: none;
     
 }
@@ -25,5 +30,27 @@ ul ul li {
     display: block;
 }
 ul li:hover ul{ 
-display: block
+    display: block
 }
+a{
+    padding: 1rem;
+}
+a:hover{
+    background-color: blue;
+}
+
+/* form------------- */
+.campos{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    margin: 2rem;
+    border-color: gold;
+    border-radius: 20px;
+}
+input,select,textarea{
+    margin-bottom: 1rem;
+}
+
